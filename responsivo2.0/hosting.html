@@ -1,0 +1,116 @@
+<!Doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Site Responsivo com Acessibilidade</title>
+		<link href="css/estilos.css" rel="stylesheet" />
+	</head>
+	<body class="template">
+	<a class="link" href="#principal">Ir para o conteúdo principal</a>	
+		<div class="container">
+			<nav class="menu margens">
+				<a href="index.html">Home</a>
+				<a href="hosting.html">Hosting</a>
+				<a href="domain.html">Domain Names</a>
+				<a href="email.html">Email</a>
+				<a href="ecommerce.html">Ecommerce</a>
+				<a href="support.html">Support</a>
+			</nav>
+			
+			<nav class="mobile">
+				<a href="#" class="botao">
+					<img src="imagens/mobile_menu.png" alt="icone do menu mobile" title="icone do menu mobile" />
+					Menu</a>
+				<ul class="lista">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="hosting.html">Hosting</a></li>
+					<li><a href="domain.html">Domain Names</a></li>
+					<li><a href="email.html">Email</a></li>
+					<li><a href="ecommerce.html">Ecommerce</a></li>
+					<li><a href="support.html">Support</a></li>				
+				</ul>
+			</nav>			
+			<header class="banner">
+			<h1>Site Responsivo com Acessibilidade</h1>
+			</header>
+			
+			<section id="principal" class="principal margens">
+				<h1>Incluso nos nossos planos:</h1>
+				<article class="hosting colunas">
+					<div>
+						<img src="imagens/sites.png" alt="criador de sites" title="criador de sites" />
+						<h2>Criador de Sites</h2>
+						<p>Para criar 1 site e editá-lo quantas vezes quiser</p>
+					</div>	
+
+					<div class="central">
+						<img src="imagens/www.png" alt="Registro de domínio" title="Registro de Domínio"  />
+						<h2>Registro de Domínio</h2>
+						<p>Sua marca na internet com o primeiro ano grátis</p>
+					</div>
+
+					<div>
+						<img src="imagens/migration.png" alt="Migracao" title="Migracao" />
+						<h2>Migração</h2>
+						<p>Transferência grátis do seu site e e-mails</p>
+					</div>					
+				</article>
+				
+				<article class="hosting colunas">
+					<div>
+						<img src="imagens/sistemas.png" alt="Multiplataforma" title="Multiplataforma" />
+						<h2>Multiplataforma</h2>
+						<p>Linux ou Windows disponíveis para cada site ativado</p>
+					</div>	
+
+					<div class="central">
+						<img src="imagens/handshake.png" alt="Parceria" title="Parceria" />
+						<h2>Parceria</h2>
+						<p>Tenha vantagens na contratação de Google Adwords</p>
+					</div>
+
+					<div>
+						<img src="imagens/app.png" alt="Instalador de APP" title="Instalador de APP" />
+						<h2>Instalador de APP</h2>
+						<p>Instale os principais aplicativos em um clique</p>
+					</div>					
+				</article>
+			</section>
+			
+			<footer class="final">
+				<nav class="menu2 margens">
+					<a href="index.html">Home</a>
+					<a href="hosting.html">Hosting</a>
+					<a href="domain.html">Domain Names</a>
+					<a href="email.html">Email</a>
+					<a href="ecommerce.html">Ecommerce</a>
+					<a href="support.html">Support</a>
+				</nav>
+				<p>Premium Hosting &copy; 2018 | Privacy Policy</p>
+			</footer>		
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<noscript>
+				<p>Seu navagador não suporta scripts :( </p>
+		</noscript>
+		
+		<script>
+		$(document).ready(function(){
+			$(".botao").click(function(){
+				$(".lista").toggle();
+			});
+		});
+		</script>
+		 <noscript>
+			  <p>Seu navagador não suporta scripts :( </p>
+		  </noscript>
+		</script>
+
+	</body>
+</html>	
+
+
+
+
+
